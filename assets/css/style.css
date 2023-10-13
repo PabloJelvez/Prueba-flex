@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.section{
+    display: flex;
+    flex: 0 0 1rem;
+    
+}
+.contacts{
+    display: flex;
+    flex: 0 0 22rem;
+    flex-direction: column;
+    width: 22%;
+    min-height: 100vh;
+    display: flex;
+    background-color: white;
+}
+.principal{
+    width: 78%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebe4;
+}
+.principal img{
+    width: 300px;
+    border-radius: 9%;
+    padding: 1em;
+}
+.principal .title{
+    font-size: 45px;
+    padding: 3px;
+}
+.principal p{
+    font-size: 16px;
+    padding: 3px;
+}
+.maria{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border: solid 1px #BEC1BB;
+    
+}
+.imgMaria img{
+    height: 3em;
+    border-radius: 50%;
+}
+.divImg{
+    width: 20%;
+}
+.divStatus{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.textMaria{
+    padding: 5px;
+}
+.iconMaria{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconMaria div{
+    padding: 6px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+    padding: 1em;
+    border: solid 1px #BEC1BB;
+    border-collapse: collapse;
+   
+    
+}
+.button button{
+    background-color: #A491D2;
+    font-size: 16px;
+    color: white;
+    height: 55px;
+    width: 200px;
+    border: none;
+    transition: all 0.5s;
+}
+.button button:hover{
+    background-color: #CDC3E6;
+}
+.button button:focus{
+    background-color: #BEC1BB;
+}
+.users{
+    display: flex;
+    justify-content: start;
+    padding: 1em;
+    border: solid 1px #BEC1BB;
+    border-collapse: collapse;
+    
+}
+.users img{
+    height: 4em;
+    border-radius: 50%;
+
+    }
+    .users div{
+        padding: 10px 0 0 16px;
+    }
